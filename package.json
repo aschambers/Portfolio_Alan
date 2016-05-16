@@ -1,0 +1,7 @@
+{
+  "name": "customize_users",
+  "dependencies": {
+    "express": "latest",
+    "mongoose": "latest"
+  }
+}
