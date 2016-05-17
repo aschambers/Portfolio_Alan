@@ -90,60 +90,21 @@ var myApp = angular.module('myApp', ['ngRoute', 'ngAnimate']);
         margin-right:-3em;
     }
 }
-@media all and (min-device-width: 481px) and (max-device-width: 1328px) {
+@media all and (min-device-width: 481px) and (max-device-width: 960px) {
     #contactbar {
         margin-right:-3em;
     }
 }
-@media all and (min-device-width: 1329px) {
-    #navbar {
-        margin-left:-12em;
-    }
+@media all and (min-device-width: 960px) and (max-device-width: 1320px) {
     #contactbar {
-        margin-right:-8.2em;
+        margin-right:-10em;
     }
 }
-/*.reveal-animation {
-    transition: all 1s;
+@media all and (min-device-width: 1321px) {
+
 }
-.reveal-animation.ng-enter {
-    opacity:1;
-    border:5px solid black;
-    width:8%;
-}
-.reveal-animation.ng-enter.ng-enter-active {
-    opacity:0;
-    border:5px solid black;
-    width:8%;
-}
-.reveal-animation.ng-leave {
-    opacity:0;
-    width:8%;
-}
-.reveal-animation.ng-leave.ng-leave-active {
-    opacity:1;
-    width:8%;
-}
-.reveal-animation:hover {
-    opacity: 0.5;
-    border:5px solid black;
-    width:8%;
-}*/
 </style>
 <body>
-<!-- HEADER AND NAVBAR -->
-<header>
-  <div class="container">
-    <div class="navbar-header">
-      <a id="navbar" class="navbar-brand" href="/">Warrior Security Services</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="#services"><i class="fa fa-shield"></i> Services</a></li>
-      <li id="contactbar"><a href="#contact"><i class="fa fa-comment"></i> Contact Us</a></li>
-    </ul>
-  </div>
-</header>
 <!-- animate using ng-animate -->
 <div ng-view></div>
 </body>
