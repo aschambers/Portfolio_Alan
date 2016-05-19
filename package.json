@@ -1,6 +1,7 @@
 {
   "name": "customize_users",
   "dependencies": {
+    "devicon": "^2.0.0",
     "express": "latest",
     "mongoose": "latest"
   }
