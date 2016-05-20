@@ -91,6 +91,14 @@
 		width:54.5em;
 		margin-top:-61em;
 	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:1em;
+		margin-top:37.5em;
+		height:22em;
+		width:30em;
+	}
 	#gkb {
 		position:relative;
 		z-index:10;
@@ -314,9 +322,17 @@
   		width: 780px;
 	}
 	#accordians {
-		margin-left:4em;
+		margin-left:1em;
 		width:50.5em;
 		margin-top:-61em;
+	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:1em;
+		margin-top:37.5em;
+		height:22em;
+		width:30em;
 	}
 	#gkb {
 		position:relative;
@@ -545,6 +561,14 @@
 		width:54.5em;
 		margin-top:-61em;
 	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:1em;
+		margin-top:37.5em;
+		height:22em;
+		width:30em;
+	}
 	#gkb {
 		position:relative;
 		z-index:10;
@@ -770,6 +794,14 @@
 		margin-left:0em;
 		width:48.5em;
 		margin-top:-61em;
+	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:1em;
+		margin-top:37.5em;
+		height:22em;
+		width:30em;
 	}
 	#gkb {
 		position:relative;
@@ -997,6 +1029,14 @@
 		width:70.5em;
 		margin-top:-61em;
 	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:1em;
+		margin-top:37.5em;
+		height:22em;
+		width:30em;
+	}
 	#gkb {
 		position:relative;
 		z-index:10;
@@ -1148,7 +1188,7 @@
 	.container {
 		width:32em;
 		height:15em;
-		margin-top:-28em;
+		margin-top:-30em;
 		margin-left:-31.1em;
 	}
 	.front .back {
@@ -1206,7 +1246,7 @@
 	}
 	.alantxt {
 		font-size:0.7em;
-		margin-top:31em;
+		margin-top:28em;
 		margin-left:-34em;
 	}
 	#line {
@@ -1222,6 +1262,14 @@
 		margin-left:0em;
 		width:80.5em;
 		margin-top:-61em;
+	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:1em;
+		margin-top:37.5em;
+		height:22em;
+		width:30em;
 	}
 	#gkb {
 		position:relative;
@@ -1271,13 +1319,13 @@
 		width:6em;
 		height:6em;
 		margin-left:42em;
-		margin-top:-42em;
+		margin-top:-44em;
 	}
 	#express {
 		width:6em;
 		height:6em;
 		margin-left:50em;
-		margin-top:-45.5em;
+		margin-top:-47.5em;
 	}
 	#flask {
 		width:6em;
@@ -1295,61 +1343,61 @@
 		width:6em;
 		height:6em;
 		margin-left:34.5em;
-		margin-top:-38em;
+		margin-top:-39em;
 	}
 	#jquery {
 		width:6em;
 		height:6em;
 		margin-left:50em;
-		margin-top:-40.5em;
+		margin-top:-41.5em;
 	}
 	#js {
 		width:6em;
 		height:6em;
 		margin-left:58em;
-		margin-top:-60.5em;
+		margin-top:-62.5em;
 	}
 	#mongodb {
 		width:6em;
 		height:6em;
 		margin-left:58em;
-		margin-top:-46em;
+		margin-top:-47.5em;
 	}
 	#nodejs {
 		width:6em;
 		height:6em;
 		margin-left:42em;
-		margin-top:-49em;
+		margin-top:-51em;
 	}
 	#php {
 		width:6em;
 		height:6em;
 		margin-left:35em;
-		margin-top:-36.3em;
+		margin-top:-38.3em;
 	}
 	#python {
 		width:6em;
 		height:6em;
 		margin-left:58em;
-		margin-top:-38.5em;
+		margin-top:-40.5em;
 	}
 	#mysql {
 		width:6em;
 		height:6em;
 		margin-left:27em;
-		margin-top:-41.5em;
+		margin-top:-44.5em;
 	}
 	#apache {
 		width:6em;
 		height:6em;
 		margin-left:42.5em;
-		margin-top:-44.5em;
+		margin-top:-47.5em;
 	}
 	#aws {
 		width:6em;
 		height:6em;
 		margin-left:50.1em;
-		margin-top:-47.5em;
+		margin-top:-50.5em;
 	}
 	#tech {
 		margin-top:-9em;
@@ -1582,6 +1630,14 @@
 		margin-left:20em;
 		width:15em;
 	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:-0.3em;
+		margin-top:-23.7em;
+		height:22em;
+		width:34em;
+	}
 }
 @media all and (min-device-width: 961px) and (max-device-width: 1320px) {
 	body {
@@ -1674,6 +1730,14 @@
 		margin-left:0em;
 		width:48.5em;
 		margin-top:-61em;
+	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:-0.3em;
+		margin-top:-23.7em;
+		height:22em;
+		width:34em;
 	}
 	#gkb {
 		position:relative;
@@ -1898,7 +1962,7 @@
 	#accordians {
 		margin-left:0em;
 		width:95.5em;
-		margin-top:-61em;
+		margin-top:-62.5em;
 	}
 	#gkb {
 		position:relative;
@@ -1907,6 +1971,14 @@
 		margin-top:-41.2em;
 		height:18em;
 		width:30em;
+	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:-0.3em;
+		margin-top:-23.7em;
+		height:22em;
+		width:34em;
 	}
 	#swiftshift {
 		margin-top:5.7em;
