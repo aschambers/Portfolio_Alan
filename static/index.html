@@ -13,92 +13,61 @@
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
 <!-- googlemaps API -->
 <script src="http://maps.googleapis.com/maps/api/js"></script>
-<script>
-var myCenter=new google.maps.LatLng(37.535253,-120.863445);
-function initialize() {
-    var mapProp = {
-        center:new google.maps.LatLng(37.535253,-120.863445),
-        zoom:16,
-        mapTypeId:google.maps.MapTypeId.ROADMAP
-    };
-    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    var marker=new google.maps.Marker({
-        position:myCenter,
-    });
-    marker.setMap(map);
-    var infowindow = new google.maps.InfoWindow({
-        content:"1283 Paseo Belleza, Turlock, CA 95382, United States"
-    });
-    infowindow.open(map,marker);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+<script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Styles -->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <script type="text/javascript">
 // create the module and name it myApp
 // also include ngRoute for all our routing needs
-var myApp = angular.module('myApp', ['ngRoute', 'ngAnimate']);
-  // configure our routes
-  myApp.config(function ($routeProvider) {
-    $routeProvider
-      // route for the home page
-      .when('/', {
-        templateUrl : 'pages/home.html',
-        controller: 'mainController'
-      })
-      // route for the about page
-      .when('/services', {
-        templateUrl : 'pages/services.html',
-        controller: 'servicesController'
-      })
-      // route for the contact page
-      .when('/contact', {
-        templateUrl : 'pages/contact.html',
-        controller: 'contactController'
+var myApp = angular.module('myApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap']);
+    // configure our routes
+    myApp.config(function ($routeProvider) {
+      $routeProvider
+        // route for the home page
+        .when('/', {
+          templateUrl : 'pages/home.html',
+          controller: 'mainController'
+        })
     });
-  });
-  // create the controller and inject Angular's $scope
-  myApp.controller('mainController', function($scope) {
-    // create a message to display in our view
-    $scope.message = 'Warrior Private Security';
-    $scope.pageClass = 'pages#home';
-  });
-  myApp.controller('servicesController', function($scope) {
-    $scope.message = 'Warrior Private Security';
-    $scope.pageClass = 'pages#services';
-  });
-  myApp.controller('contactController', function($scope) {
-    $scope.message = 'Warrior Private Security';
-    $scope.pageClass = 'pages#contact';
-  });
+    // create the controller and inject Angular's $scope
+    myApp.controller('mainController', function($scope) {
+        // create a message to display in our view
+        $scope.pageClass = 'pages#home';
+        $scope.oneAtATime = true;
+        $scope.groups = [
+            {
+              title: "Dynamic Group Header - 1",
+              content: "Dynamic Group Body - 1"
+            },
+            {
+              title: "Dynamic Group Header - 2",
+              content: "Dynamic Group Body - 2"
+            }
+        ];
+
+        $scope.items = ['Item 1', 'Item 2', 'Item 3'];
+
+        $scope.addItem = function() {
+            var newItemNo = $scope.items.length + 1;
+            $scope.items.push('Item ' + newItemNo);
+        };
+        
+        $scope.callMeWhenCompiled = function () {
+            console.log("----->>>>> Called");
+        };
+    });
 </script>
 </head>
-<script>
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1106065126117851";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
 <style>
 @media all and (max-device-width: 480px) {
-    #navbar {
-        margin-left:-6em;
-    }
-    #contactbar {
-        margin-right:-3em;
-    }
+
 }
 @media all and (min-device-width: 481px) and (max-device-width: 960px) {
-    #contactbar {
-        margin-right:-3em;
-    }
+    
 }
 @media all and (min-device-width: 960px) and (max-device-width: 1320px) {
-    #contactbar {
-        margin-right:-10em;
-    }
+  
 }
 @media all and (min-device-width: 1321px) {
 
