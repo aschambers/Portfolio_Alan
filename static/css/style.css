@@ -1,5 +1,5 @@
 /* devices smaller than iphone5 */
-@media all and (min-device-width: 1px) and (max-device-width: 320px); {
+@media all and (min-device-width: 1px) and (max-device-width: 319.9px){
 	body {
 		font-family: Helvetica, Arial, Sans-Serif;
 		width:100%;
@@ -10,46 +10,45 @@
 		width:32em;
 		position: relative; 
 		margin-left:40em;
-		margin-top:0em;
+		margin-top:4em;
 	}
 	.container {
 		width:32em;
 		height:15em;
 		margin-top:-36.5em;
-		margin-left:-31.1em;
+		margin-left:-35.1em;
 	}
 	.front .back {
 		width: 32em; 
 		height: 15em; 
-		-webkit-transform: rotateY(180deg);
+		/*-webkit-transform: rotateY(180deg);*/
 	}
 	.container {
 		width: 32em;
 		height:15em;
-		-webkit-perspective: 1000;
+		/*-webkit-perspective: 1000;*/
 	}
 	.card {
 		width: 32em; 
 		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
 	}
 	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
+		/*-webkit-transform: rotateY(180deg);				*/
 	}
 	.face {
 		position: absolute;
-		-webkit-backface-visibility: hidden;
+		/*-webkit-backface-visibility: hidden;*/
 	}
 	.front {
 		z-index: 10;
 	}
 	.container:hover .front {
-		z-index: 0;
+		display:none;
 	}
 	#buscardfront {
-		width:32em;
-		height:15em;
+		display:none;
 	}
 	#buscardback {
 		position:relative;
@@ -58,10 +57,10 @@
 		margin-right:-20px;
 	}
 	#alan {
-		height:80%
+		height:80%;
 		width:42%;
-		margin-top:2em;
-		margin-left:3em;
+		margin-top:-1em;
+		margin-left:-1em;
 		padding:2px;
 		border:5px solid black;
 		border-radius:5px;
@@ -72,10 +71,10 @@
 		width:16em;
 	}
 	.alantxt {
-		font-size:0.75em;
-		margin-top:25em;
+		font-size:0.7em;
+		margin-top:26.6em;
 		width:45em;
-		margin-left:-29em;
+		margin-left:-35em;
 	}
 	#line {
 		margin-top:-18em;
@@ -122,114 +121,114 @@
 	#angular {
 		width:6em;
 		height:6em;
-		margin-left:21em;
+		margin-left:13.5em;
 		margin-top:-18.5em;
 	}	
 	#bootstrap {
 		width:6em;
 		height:6em;
-		margin-left:31em;
-		margin-top:-22em;
+		margin-left:20.5em;
+		margin-top:-22.5em;
 	}
 	#codeigniter {
 		width:6em;
 		height:6em;
-		margin-left:21em;
-		margin-top:-0.5em;
+		margin-left:13.6em;
+		margin-top:-1em;
 	}
 	#css {
 		width:6em;
 		height:6em;
-		margin-left:39.5em;
+		margin-left:26.5em;
 		margin-top:-37.5em;
 	}
 	#django {
 		width:6em;
 		height:6em;
-		margin-left:47em;
+		margin-left:40em;
 		margin-top:-41em;
 	}
 	#express {
 		width:6em;
 		height:6em;
-		margin-left:55em;
+		margin-left:33.5em;
 		margin-top:-45em;
 	}
 	#flask {
 		width:6em;
 		height:6em;
-		margin-left:21.1em;
-		margin-top:-33.7em;
+		margin-left:13.6em;
+		margin-top:-34.7em;
 	}
 	#github {
 		width:6em;
 		height:6em;
-		margin-left:31em;
-		margin-top:-37.2em;
+		margin-left:20.5em;
+		margin-top:-39.2em;
 	}
 	#html {
 		width:6em;
 		height:6em;
-		margin-left:39.5em;
-		margin-top:-41.5em;
+		margin-left:26.5em;
+		margin-top:-43.5em;
 	}
 	#jquery {
 		width:6em;
 		height:6em;
-		margin-left:47.5em;
-		margin-top:-16.5em;
+		margin-left:34em;
+		margin-top:-17.5em;
 	}
 	#js {
 		width:6em;
 		height:6em;
-		margin-left:55em;
-		margin-top:-34em;
+		margin-left:27.5em;
+		margin-top:-22em;
 	}
 	#mongodb {
 		width:6em;
 		height:6em;
-		margin-left:55em;
-		margin-top:-52em;
+		margin-left:40em;
+		margin-top:-56em;
 	}
 	#nodejs {
 		width:6em;
 		height:6em;
-		margin-left:47em;
-		margin-top:-55.5em;
+		margin-left:34em;
+		margin-top:-59.5em;
 	}
 	#php {
 		width:6em;
 		height:6em;
-		margin-left:47.5em;
-		margin-top:-45.5em;
+		margin-left:34.5em;
+		margin-top:-49.5em;
 	}
 	#python {
 		width:6em;
 		height:6em;
-		margin-left:40em;
-		margin-top:-49.5em;
+		margin-left:27em;
+		margin-top:-53.5em;
 	}
 	#mysql {
 		width:6em;
 		height:6em;
-		margin-left:31em;
-		margin-top:-39.5em;
+		margin-left:40.5em;
+		margin-top:-56.5em;
 	}
 	#apache {
 		width:6em;
 		height:6em;
-		margin-left:31em;
-		margin-top:-58em;
+		margin-left:20.5em;
+		margin-top:-62em;
 	}
 	#aws {
 		width:6em;
 		height:6em;
-		margin-left:39.5em;
-		margin-top:-47em;
+		margin-left:20.5em;
+		margin-top:-51em;
 	}
 	#tech {
 		margin-top:-8em;
-		margin-left:20.5em;
+		margin-left:10.5em;
 		width:15em;
 	}
 }
@@ -250,41 +249,40 @@
 	.container {
 		width:32em;
 		height:15em;
-		margin-top:-38.5em;
+		margin-top:-44.8em;
 		margin-left:-31.1em;
 	}
 	.front .back {
 		width: 32em; 
 		height: 15em; 
-		-webkit-transform: rotateY(180deg);
+		/*-webkit-transform: rotateY(180deg);*/
 	}
 	.container {
 		width: 32em;
 		height:15em;
-		-webkit-perspective: 1000;
+		/*-webkit-perspective: 1000;*/
 	}
 	.card {
 		width: 32em; 
 		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
 	}
 	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
+		/*-webkit-transform: rotateY(180deg);				*/
 	}
 	.face {
 		position: absolute;
-		-webkit-backface-visibility: hidden;
+		/*-webkit-backface-visibility: hidden;*/
 	}
 	.front {
 		z-index: 10;
 	}
 	.container:hover .front {
-		z-index: 0;
+		display:none;
 	}
 	#buscardfront {
-		width:32em;
-		height:15em;
+		display:none;
 	}
 	#buscardback {
 		position:relative;
@@ -382,7 +380,7 @@
 		width:6em;
 		height:6em;
 		margin-left:42em;
-		margin-top:-40.5em;
+		margin-top:-41.5em;
 	}
 	#express {
 		width:6em;
@@ -430,37 +428,37 @@
 		width:6em;
 		height:6em;
 		margin-left:42.2em;
-		margin-top:-57em;
+		margin-top:-58.5em;
 	}
 	#php {
 		width:6em;
 		height:6em;
 		margin-left:42.5em;
-		margin-top:-45.5em;
+		margin-top:-48.5em;
 	}
 	#python {
 		width:6em;
 		height:6em;
 		margin-left:35em;
-		margin-top:-50em;
+		margin-top:-52em;
 	}
 	#mysql {
 		width:6em;
 		height:6em;
 		margin-left:20em;
-		margin-top:-38.5em;
+		margin-top:-39.5em;
 	}
 	#apache {
 		width:6em;
 		height:6em;
 		margin-left:28em;
-		margin-top:-41.5em;
+		margin-top:-43.5em;
 	}
 	#aws {
 		width:6em;
 		height:6em;
 		margin-left:28em;
-		margin-top:-32em;
+		margin-top:-34em;
 	}
 	#tech {
 		margin-top:-8em;
@@ -491,35 +489,34 @@
 	.front .back {
 		width: 32em; 
 		height: 15em; 
-		-webkit-transform: rotateY(180deg);
+		/*-webkit-transform: rotateY(180deg);*/
 	}
 	.container {
 		width: 32em;
 		height:15em;
-		-webkit-perspective: 1000;
+		/*-webkit-perspective: 1000;*/
 	}
 	.card {
 		width: 32em; 
 		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
 	}
 	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
+		/*-webkit-transform: rotateY(180deg);		*/		
 	}
 	.face {
 		position: absolute;
-		-webkit-backface-visibility: hidden;
+		/*-webkit-backface-visibility: hidden;*/
 	}
 	.front {
 		z-index: 10;
 	}
 	.container:hover .front {
-		z-index: 0;
+		display:none;
 	}
 	#buscardfront {
-		width:32em;
-		height:15em;
+		display:none;
 	}
 	#buscardback {
 		position:relative;
@@ -530,7 +527,7 @@
 	#alan {
 		height:80%;
 		width:42%;
-		margin-top:2em;
+		margin-top:2.4em;
 		margin-left:3em;
 		padding:2px;
 		border:5px solid black;
@@ -720,41 +717,41 @@
 	.container {
 		width:32em;
 		height:15em;
-		margin-top:-32em;
+		margin-top:-36em;
 		margin-left:-31.1em;
 	}
 	.front .back {
 		width: 32em; 
 		height: 15em; 
-		-webkit-transform: rotateY(180deg);
+		/*-webkit-transform: rotateY(180deg);*/
 	}
 	.container {
 		width: 32em;
 		height:15em;
-		-webkit-perspective: 1000;
+		/*-webkit-perspective: 1000;*/
 	}
 	.card {
 		width: 32em; 
 		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
 	}
 	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
+		/*-webkit-transform: rotateY(180deg);*/	
 	}
 	.face {
 		position: absolute;
-		-webkit-backface-visibility: hidden;
+		/*-webkit-backface-visibility: hidden;*/
 	}
 	.front {
 		z-index: 10;
 	}
 	.container:hover .front {
-		z-index: 0;
+		display:none;
+		/*z-index: 0;*/
 	}
 	#buscardfront {
-		width:32em;
-		height:15em;
+		display:none;
 	}
 	#buscardback {
 		position:relative;
@@ -887,7 +884,7 @@
 		width:6em;
 		height:6em;
 		margin-left:58em;
-		margin-top:-63.5em;
+		margin-top:-65.5em;
 	}
 	#mongodb {
 		width:6em;
@@ -910,8 +907,8 @@
 	#python {
 		width:6em;
 		height:6em;
-		margin-left:75em;
-		margin-top:-38.5em;
+		margin-left:58em;
+		margin-top:-45em;
 	}
 	#mysql {
 		width:6em;
@@ -954,41 +951,43 @@
 	.container {
 		width:32em;
 		height:15em;
-		margin-top:-30em;
+		margin-top:-32em;
 		margin-left:-31.1em;
 	}
 	.front .back {
 		width: 32em; 
 		height: 15em; 
-		-webkit-transform: rotateY(180deg);
+		/*-webkit-transform: rotateY(180deg);*/
 	}
 	.container {
 		width: 32em;
 		height:15em;
-		-webkit-perspective: 1000;
+		/*-webkit-perspective: 1000;*/
 	}
 	.card {
 		width: 32em; 
 		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
 	}
 	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
+		/*-webkit-transform: rotateY(180deg);*/	
 	}
 	.face {
 		position: absolute;
-		-webkit-backface-visibility: hidden;
+		/*-webkit-backface-visibility: hidden;*/
 	}
 	.front {
 		z-index: 10;
 	}
 	.container:hover .front {
-		z-index: 0;
+		/*z-index: 0;*/
+		display:none;
 	}
 	#buscardfront {
 		width:32em;
 		height:15em;
+		display:none;
 	}
 	#buscardback {
 		position:relative;
@@ -1012,7 +1011,7 @@
 	}
 	.alantxt {
 		font-size:0.7em;
-		margin-top:30em;
+		margin-top:26em;
 		margin-left:-34em;
 	}
 	#line {
@@ -1067,7 +1066,7 @@
 		width:6em;
 		height:6em;
 		margin-left:27em;
-		margin-top:-21em;
+		margin-top:-21.5em;
 	}
 	#codeigniter {
 		width:6em;
@@ -1079,91 +1078,91 @@
 		width:6em;
 		height:6em;
 		margin-left:34.5em;
-		margin-top:-40.5em;
+		margin-top:-41.5em;
 	}
 	#django {
 		width:6em;
 		height:6em;
 		margin-left:42em;
-		margin-top:-43em;
+		margin-top:-44em;
 	}
 	#express {
 		width:6em;
 		height:6em;
 		margin-left:50em;
-		margin-top:-45.5em;
+		margin-top:-47em;
 	}
 	#flask {
 		width:6em;
 		height:6em;
 		margin-left:19.2em;
-		margin-top:-32.5em;
+		margin-top:-34.5em;
 	}
 	#github {
 		width:6em;
 		height:6em;
 		margin-left:27em;
-		margin-top:-35em;
+		margin-top:-38em;
 	}
 	#html {
 		width:6em;
 		height:6em;
 		margin-left:34.5em;
-		margin-top:-38em;
+		margin-top:-41em;
 	}
 	#jquery {
 		width:6em;
 		height:6em;
 		margin-left:50em;
-		margin-top:-41.5em;
+		margin-top:-43.5em;
 	}
 	#js {
 		width:6em;
 		height:6em;
 		margin-left:58em;
-		margin-top:-61em;
+		margin-top:-64em;
 	}
 	#mongodb {
 		width:6em;
 		height:6em;
 		margin-left:58em;
-		margin-top:-46.7em;
+		margin-top:-49.7em;
 	}
 	#nodejs {
 		width:6em;
 		height:6em;
 		margin-left:42em;
-		margin-top:-50em;
+		margin-top:-54em;
 	}
 	#php {
 		width:6em;
 		height:6em;
 		margin-left:35em;
-		margin-top:-37em;
+		margin-top:-40em;
 	}
 	#python {
 		width:6em;
 		height:6em;
 		margin-left:58em;
-		margin-top:-39em;
+		margin-top:-42em;
 	}
 	#mysql {
 		width:6em;
 		height:6em;
 		margin-left:27em;
-		margin-top:-43.5em;
+		margin-top:-45.5em;
 	}
 	#apache {
 		width:6em;
 		height:6em;
 		margin-left:42.5em;
-		margin-top:-45.5em;
+		margin-top:-49.5em;
 	}
 	#aws {
 		width:6em;
 		height:6em;
 		margin-left:50.1em;
-		margin-top:-48.5em;
+		margin-top:-52.5em;
 	}
 	#tech {
 		margin-top:-9em;
