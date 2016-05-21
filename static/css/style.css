@@ -1892,6 +1892,7 @@
 		width:34em;
 	}
 }
+/*13-inch macbook Pro*/
 @media all and (min-device-width: 961px) and (max-device-width: 1320px) {
 	body {
 		font-family: Helvetica, Arial, Sans-Serif;
@@ -2126,7 +2127,243 @@
 		width:15em;
 	}
 }
-@media all and (min-device-width: 1321px) {
+/*15-inch hp laptop*/
+@media all and (min-device-width: 1320.1px) and (max-device-width: 1520px) {
+	body {
+		font-family: Helvetica, Arial, Sans-Serif;
+		width:100%;
+		height:100em;
+		background-color:#C8C8C8;
+	}
+	#reverse {
+		width:32em;
+		position: relative; 
+		margin-left:40em;
+		margin-top:0em;
+	}
+	.container {
+		width:32em;
+		height:15em;
+		margin-top:-25.5em;
+		margin-left:-39.1em;
+	}
+	.front .back {
+		width: 32em; 
+		height: 15em; 
+		-webkit-transform: rotateY(180deg);
+	}
+	.container {
+		width: 32em;
+		height:15em;
+		-webkit-perspective: 1000;
+	}
+	.card {
+		width: 32em; 
+		height: 15em;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+	}
+	.container:hover .card {
+		-webkit-transform: rotateY(180deg);				
+	}
+	.face {
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+	}
+	.front {
+		z-index: 10;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
+		width:32em;
+		height:15em;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:80%;
+		width:42%;
+		margin-top:5em;
+		margin-left:-5em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.contme {
+		margin-left:1em;
+		margin-top:-12em;
+		width:16em;
+	}
+	.alantxt {
+		font-size:0.9em;
+		margin-top:30em;
+		width:51em;
+		margin-left:-43em;
+	}
+	#line {
+		margin-top:-19em;
+		width:132em;
+		margin-left:-37em;
+	}
+	.accordion-test {
+ 		padding: 20px;
+  		width: 780px;
+	}
+	#accordians {
+		margin-left:0em;
+		width:51.5em;
+		margin-top:-61em;
+	}
+	#pokedex {
+		position:relative;
+		z-index:10;
+		margin-left:-0.3em;
+		margin-top:-23.7em;
+		height:22em;
+		width:34em;
+	}
+	#gkb {
+		position:relative;
+		z-index:10;
+		margin-left:-32em;
+		margin-top:-41.2em;
+		height:18em;
+		width:30em;
+	}
+	#swiftshift {
+		margin-top:5.7em;
+		margin-left:-38em;
+		height:35em;
+		width:45em;
+	}
+	#warrior {
+		margin-top:38em;
+		margin-left:-37.5em;
+		height:22em;
+		width:30em;
+	}
+	#angular {
+		width:6em;
+		height:6em;
+		margin-left:10em;
+		margin-top:-18.5em;
+	}	
+	#bootstrap {
+		width:6em;
+		height:6em;
+		margin-left:17em;
+		margin-top:-21.5em;
+	}
+	#codeigniter {
+		width:6em;
+		height:6em;
+		margin-left:10.2em;
+		margin-top:-0.5em;
+	}
+	#css {
+		width:6em;
+		height:6em;
+		margin-left:23.5em;
+		margin-top:-35.5em;
+	}
+	#django {
+		width:6em;
+		height:6em;
+		margin-left:30em;
+		margin-top:-38em;
+	}
+	#express {
+		width:6em;
+		height:6em;
+		margin-left:37em;
+		margin-top:-41em;
+	}
+	#flask {
+		width:6em;
+		height:6em;
+		margin-left:10.1em;
+		margin-top:-29.7em;
+	}
+	#github {
+		width:6em;
+		height:6em;
+		margin-left:17em;
+		margin-top:-32.5em;
+	}
+	#html {
+		width:6em;
+		height:6em;
+		margin-left:23.5em;
+		margin-top:-36em;
+	}
+	#jquery {
+		width:6em;
+		height:6em;
+		margin-left:44em;
+		margin-top:-38.5em;
+	}
+	#js {
+		width:6em;
+		height:6em;
+		margin-left:44em;
+		margin-top:-55.5em;
+	}
+	#mongodb {
+		width:6em;
+		height:6em;
+		margin-left:37em;
+		margin-top:-44.2em;
+	}
+	#nodejs {
+		width:6em;
+		height:6em;
+		margin-left:30em;
+		margin-top:-47em;
+	}
+	#php {
+		width:6em;
+		height:6em;
+		margin-left:44em;
+		margin-top:-36.3em;
+	}
+	#python {
+		width:6em;
+		height:6em;
+		margin-left:37em;
+		margin-top:-38.5em;
+	}
+	#mysql {
+		width:6em;
+		height:6em;
+		margin-left:17.1em;
+		margin-top:-41.5em;
+	}
+	#apache {
+		width:6em;
+		height:6em;
+		margin-left:23.5em;
+		margin-top:-44.5em;
+	}
+	#aws {
+		width:6em;
+		height:6em;
+		margin-left:30.1em;
+		margin-top:-47.5em;
+	}
+	#tech {
+		margin-top:-9em;
+		margin-left:14.5em;
+		width:15em;
+	}
+}
+/*24-inch desktop monitor*/
+@media all and (min-device-width: 1520.1px){
 	body {
 		font-family: Helvetica, Arial, Sans-Serif;
 		width:100%;
