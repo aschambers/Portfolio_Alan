@@ -1,1212 +1,27 @@
-/* devices smaller than iphone5 */
-@media all and (min-device-width: 1px) and (max-device-width: 319.9px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#contactme {
-		display:none;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:4em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-36.5em;
-		margin-left:-35.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		/*-webkit-transform: rotateY(180deg);*/
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		/*-webkit-perspective: 1000;*/
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		/*-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;*/
-	}
-	.container:hover .card {
-		/*-webkit-transform: rotateY(180deg);				*/
-	}
-	.face {
-		position: absolute;
-		/*-webkit-backface-visibility: hidden;*/
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		display:none;
-	}
-	#buscardfront {
-		display:none;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:-1em;
-		margin-left:-1em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.7em;
-		margin-top:26.6em;
-		width:45em;
-		margin-left:-35em;
-	}
-	#line {
-		margin-top:-17em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:54.5em;
-		margin-top:-61em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:1em;
-		margin-top:37.5em;
-		height:22em;
-		width:30em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:13.5em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:20.5em;
-		margin-top:-22.5em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:13.6em;
-		margin-top:-1em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:26.5em;
-		margin-top:-37.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:40em;
-		margin-top:-41em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:33.5em;
-		margin-top:-45em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:13.6em;
-		margin-top:-34.7em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:20.5em;
-		margin-top:-39.2em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:26.5em;
-		margin-top:-43.5em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:34em;
-		margin-top:-17.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:27.5em;
-		margin-top:-22em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:40em;
-		margin-top:-56em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:34em;
-		margin-top:-59.5em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-49.5em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-53.5em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:40.5em;
-		margin-top:-56.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:20.5em;
-		margin-top:-62em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:20.5em;
-		margin-top:-51em;
-	}
-	#tech {
-		margin-top:-8em;
-		margin-left:10.5em;
-		width:15em;
-	}
-}
-/* iphone5 */
-@media all and (min-device-width: 320px) and (max-device-width: 359px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#contactme {
-		display:none;
+/*iPhone 5*/
+@media all and (min-device-width: 0px) and (max-device-width: 359.8px) {
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 110%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
 	}
 	#reverse {
 		width:32em;
 		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-44.8em;
-		margin-left:-31.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		/*-webkit-transform: rotateY(180deg);*/
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		/*-webkit-perspective: 1000;*/
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		/*-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;*/
-	}
-	.container:hover .card {
-		/*-webkit-transform: rotateY(180deg);				*/
-	}
-	.face {
-		position: absolute;
-		/*-webkit-backface-visibility: hidden;*/
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		display:none;
-	}
-	#buscardfront {
-		display:none;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:2em;
-		margin-left:3em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.75em;
-		margin-top:25em;
-		width:45em;
-		margin-left:-29em;
-	}
-	#line {
-		margin-top:-8em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:1em;
-		width:50.5em;
-		margin-top:-61em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:1em;
-		margin-top:37.5em;
-		height:22em;
-		width:30em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-31em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:20em;
-		margin-top:-19.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:28em;
-		margin-top:-23.5em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:20em;
-		margin-top:-1em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-38em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-41.5em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:28em;
-		margin-top:-29.8em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:20.1em;
-		margin-top:-34.7em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:28em;
-		margin-top:-24em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-43em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:35.2em;
-		margin-top:-14.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-19em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:20em;
-		margin-top:-9.2em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:42.2em;
-		margin-top:-58.5em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-48.5em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:35em;
-		margin-top:-52em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:20em;
-		margin-top:-39.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:28em;
-		margin-top:-43.5em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:28em;
-		margin-top:-34em;
-	}
-	#tech {
-		margin-top:-8em;
-		margin-left:14em;
-		width:15em;
-	}
-}
-/* Samsung Galaxy S6 */
-@media all and (min-device-width: 360px) and (max-device-width: 374px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#contactme {
-		display:none;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-36.5em;
-		margin-left:-31.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		/*-webkit-transform: rotateY(180deg);*/
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		/*-webkit-perspective: 1000;*/
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		/*-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;*/
-	}
-	.container:hover .card {
-		/*-webkit-transform: rotateY(180deg);		*/		
-	}
-	.face {
-		position: absolute;
-		/*-webkit-backface-visibility: hidden;*/
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		display:none;
-	}
-	#buscardfront {
-		display:none;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:2.4em;
-		margin-left:3em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.75em;
-		margin-top:25em;
-		width:45em;
-		margin-left:-29em;
-	}
-	#line {
-		margin-top:-17em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:54.5em;
-		margin-top:-61em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:1em;
-		margin-top:37.5em;
-		height:22em;
-		width:30em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:21em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:31em;
-		margin-top:-22em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:21em;
-		margin-top:-0.5em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:39.5em;
-		margin-top:-37.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:47em;
-		margin-top:-41em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:55em;
-		margin-top:-45em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:21.1em;
-		margin-top:-33.7em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:31em;
-		margin-top:-37.2em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:39.5em;
-		margin-top:-41.5em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:47.5em;
-		margin-top:-16.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:55em;
-		margin-top:-34em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:55em;
-		margin-top:-52em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:47em;
-		margin-top:-55.5em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:47.5em;
-		margin-top:-45.5em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:40em;
-		margin-top:-49.5em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:31em;
-		margin-top:-39.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:31em;
-		margin-top:-58em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:39.5em;
-		margin-top:-47em;
-	}
-	#tech {
-		margin-top:-8em;
-		margin-left:20.5em;
-		width:15em;
-	}
-}
-/* iphone6 */
-@media all and (min-device-width: 374.1px) and (max-device-width:410px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#contactme {
-		display:none;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-36em;
-		margin-left:-31.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		/*-webkit-transform: rotateY(180deg);*/
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		/*-webkit-perspective: 1000;*/
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		/*-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;*/
-	}
-	.container:hover .card {
-		/*-webkit-transform: rotateY(180deg);*/	
-	}
-	.face {
-		position: absolute;
-		/*-webkit-backface-visibility: hidden;*/
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		display:none;
-		/*z-index: 0;*/
-	}
-	#buscardfront {
-		display:none;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:3em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.7em;
-		margin-top:26em;
-		margin-left:-34em;
-	}
-	#line {
-		margin-top:-14em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:48.5em;
-		margin-top:-61em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:1em;
-		margin-top:37.5em;
-		height:22em;
-		width:30em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:19em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-22em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:2em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-41.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-44em;
-	}
-	#express {
-		width:6em;
-		height:6em;
 		margin-left:50em;
-		margin-top:-47.5em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:-34.5em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-38em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-42em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-44.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-65.5em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-51.7em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-55em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:35em;
-		margin-top:-42.3em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-45em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-49.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-53em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:50.1em;
-		margin-top:-56.5em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:21.5em;
-		width:15em;
-	}
-}
-/* Nexus 5X */
-@media all and (min-device-width: 410.1px) and (max-device-width:430px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#contactme {
-		display:none;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
+		margin-top:10em;
 	}
 	.container {
-		width:32em;
-		height:15em;
-		margin-top:-32em;
-		margin-left:-31.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		/*-webkit-transform: rotateY(180deg);*/
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		/*-webkit-perspective: 1000;*/
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		/*-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;*/
-	}
-	.container:hover .card {
-		/*-webkit-transform: rotateY(180deg);*/	
-	}
-	.face {
-		position: absolute;
-		/*-webkit-backface-visibility: hidden;*/
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		/*z-index: 0;*/
-		display:none;
-	}
-	#buscardfront {
-		width:32em;
-		height:15em;
-		display:none;
-	}
-	#buscardback {
 		position:relative;
 		width:32em;
 		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:3em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.7em;
-		margin-top:26em;
-		margin-left:-34em;
-	}
-	#line {
-		margin-top:-14em;
-		width:132em;
+		margin-top:-25em;
 		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:70.5em;
-		margin-top:-61em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:1em;
-		margin-top:37.5em;
-		height:22em;
-		width:30em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:19em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-21.5em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:2em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-41.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-44em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-47em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:-34.5em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-38em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-41em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-43.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-64em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-49.7em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-54em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:35em;
-		margin-top:-40em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-42em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-45.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-49.5em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:50.1em;
-		margin-top:-52.5em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:21.5em;
-		width:15em;
-	}
-}
-/* Nexus 6P && iPhone 6 Plus */
-@media all and (min-device-width: 430.1px) and (max-device-width:480px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#contactme {
-		display:none;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-30em;
-		margin-left:-31.1em;
 	}
 	.front .back {
 		width: 32em; 
@@ -1235,11 +50,1182 @@
 		z-index: 10;
 	}
 	.container:hover .front {
-		display:none;
-		/*z-index: 0;*/
+		z-index: 0;
 	}
 	#buscardfront {
+		width:32em;
+		height:15em;
 		display:none;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:15em;
+		width:15em;
+		margin-top:2em;
+		margin-left:36em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.alantxt {
+		font-size:2em;
+		margin-top:1em;
+		margin-left:0em;
+		width:33em;
+	}
+	#line {
+		margin-top:0em;
+		width:100%;
+		margin-left:0em;
+		color:white;
+	}
+	#accordians {
+		position:absolute;
+		margin-left:9.1em;
+		margin-top:-11.2em;
+		width:66em;
+	}
+	#gkb {
+		margin-left:-49em;
+		margin-right:-1.5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#pokedex {
+		margin-top:-11em;
+		margin-left:1.1em;
+		margin-right:-48em;
+		height:15em;
+		width:15em;
+	}
+	#swiftshift {
+		margin-top:-3em;
+		height:30em;
+		width:23em;
+		margin-left:-1em;
+		margin-right:3em;
+	}
+	#warrior {
+		margin-left:-5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#tech-skills-header {
+		position:relative;
+		margin-top:8em;
+		margin-bottom:-5em;
+		margin-left:0em;
+		color:#669999;
+	}
+	#tech-skills {
+		position:relative;
+		width:115%;
+		margin-left:0em;
+		margin-right:0em;
+		margin-top:15em;
+		margin-bottom:-5em;
+		width:80%;
+	}
+	#angular {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}	
+	#bootstrap {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#codeigniter {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#css {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#django {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#express {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#flask {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#github {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#html {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#jquery {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#js {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#mongodb {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#nodejs {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#php {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#python {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#mysql {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#apache {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#aws {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		width:139%;
+		padding-bottom:45em;
+	}
+}
+/*Galaxy S6*/
+@media all and (min-device-width: 359.9px) and (max-device-width: 400px) {
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 120%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
+	}
+	#reverse {
+		width:32em;
+		position: relative; 
+		margin-left:50em;
+		margin-top:10em;
+	}
+	.container {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-top:-25em;
+		margin-left:-35em;
+	}
+	.front .back {
+		width: 32em; 
+		height: 15em; 
+		/*-webkit-transform: rotateY(180deg);*/
+	}
+	.container {
+		width: 32em;
+		height:15em;
+		/*-webkit-perspective: 1000;*/
+	}
+	.card {
+		width: 32em; 
+		height: 15em;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
+	}
+	.container:hover .card {
+		/*-webkit-transform: rotateY(180deg);		*/		
+	}
+	.face {
+		position: absolute;
+		/*-webkit-backface-visibility: hidden;*/
+	}
+	.front {
+		z-index: 10;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
+		width:32em;
+		height:15em;
+		display:none;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:15em;
+		width:15em;
+		margin-top:2em;
+		margin-left:40em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.alantxt {
+		font-size:2em;
+		margin-top:1em;
+		margin-left:2.2em;
+		width:33em;
+	}
+	#line {
+		margin-top:0em;
+		width:100%;
+		margin-left:0em;
+		color:white;
+	}
+	#accordians {
+		position:absolute;
+		margin-left:11em;
+		margin-top:-11.2em;
+		width:66em;
+	}
+	#gkb {
+		margin-left:-42.5em;
+		margin-right:-1.5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#pokedex {
+		margin-top:-11em;
+		margin-left:1.1em;
+		margin-right:-48em;
+		height:15em;
+		width:15em;
+	}
+	#swiftshift {
+		margin-top:-3em;
+		height:30em;
+		width:23em;
+		margin-left:-1em;
+		margin-right:3em;
+	}
+	#warrior {
+		margin-left:-5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#tech-skills-header {
+		position:relative;
+		margin-top:9em;
+		margin-bottom:-5em;
+		margin-left:1em;
+		color:#669999;
+	}
+	#tech-skills {
+		position:relative;
+		margin-left:0em;
+		margin-right:-3em;
+		margin-top:12em;
+		margin-bottom:-5em;
+		width:80%;
+	}
+	#angular {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}	
+	#bootstrap {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#codeigniter {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#css {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#django {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#express {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#flask {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#github {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#html {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#jquery {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#js {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#mongodb {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#nodejs {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#php {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#python {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#mysql {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#apache {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#aws {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		width:134%;
+		padding-bottom:40em;
+	}
+}
+/*Nexus 5X*/
+@media all and (min-device-width: 400.1px) and (max-device-width: 412px) {
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 120%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
+	}
+	#reverse {
+		width:32em;
+		position: relative; 
+		margin-left:50em;
+		margin-top:10em;
+	}
+	.container {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-top:-25em;
+		margin-left:-33em;
+	}
+	.front .back {
+		width: 32em; 
+		height: 15em; 
+		/*-webkit-transform: rotateY(180deg);*/
+	}
+	.container {
+		width: 32em;
+		height:15em;
+		/*-webkit-perspective: 1000;*/
+	}
+	.card {
+		width: 32em; 
+		height: 15em;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
+	}
+	.container:hover .card {
+		/*-webkit-transform: rotateY(180deg);			*/	
+	}
+	.face {
+		position: absolute;
+		/*-webkit-backface-visibility: hidden;*/
+	}
+	.front {
+		z-index: 10;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
+		width:32em;
+		height:15em;
+		display:none;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:15em;
+		width:15em;
+		margin-top:2em;
+		margin-left:46em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.alantxt {
+		font-size:2em;
+		margin-top:1em;
+		margin-left:4em;
+		width:33em;
+	}
+	#line {
+		margin-top:0em;
+		width:100%;
+		margin-left:0em;
+		color:white;
+	}
+	#accordians {
+		position:absolute;
+		margin-left:14.5em;
+		margin-top:-11.2em;
+		width:66em;
+	}
+	#gkb {
+		margin-left:-40.5em;
+		margin-right:-1.5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#pokedex {
+		margin-top:-10em;
+		margin-left:1.1em;
+		margin-right:-48em;
+		height:15em;
+		width:15em;
+	}
+	#swiftshift {
+		margin-top:-3em;
+		height:30em;
+		width:23em;
+		margin-left:-1em;
+		margin-right:3em;
+	}
+	#warrior {
+		margin-left:-5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#tech-skills-header {
+		position:relative;
+		margin-top:8em;
+		margin-bottom:-5em;
+		margin-left:7em;
+		color:#669999;
+	}
+	#tech-skills {
+		position:relative;
+		margin-left:2em;
+		margin-right:-7em;
+		margin-top:11em;
+		margin-bottom:-5em;
+		width:80%;
+	}
+	#angular {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}	
+	#bootstrap {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#codeigniter {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#css {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#django {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#express {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#flask {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#github {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#html {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#jquery {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#js {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#mongodb {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#nodejs {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#php {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#python {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#mysql {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#apache {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#aws {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		width:142%;
+		padding-bottom:55em;
+	}
+}
+/*Nexus 5X*/
+@media all and (min-device-width: 412.1px) and (max-device-width: 420px) {
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 90%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
+	}
+	#reverse {
+		width:32em;
+		position: relative; 
+		margin-left:50em;
+		margin-top:10em;
+	}
+	.container {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-top:-25em;
+		margin-left:-36em;
+	}
+	.front .back {
+		width: 32em; 
+		height: 15em; 
+		/*-webkit-transform: rotateY(180deg);*/
+	}
+	.container {
+		width: 32em;
+		height:15em;
+		/*-webkit-perspective: 1000;*/
+	}
+	.card {
+		width: 32em; 
+		height: 15em;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
+	}
+	.container:hover .card {
+		/*-webkit-transform: rotateY(180deg);				*/
+	}
+	.face {
+		position: absolute;
+		/*-webkit-backface-visibility: hidden;*/
+	}
+	.front {
+		z-index: 10;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
+		width:32em;
+		height:15em;
+		display:none;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:15em;
+		width:15em;
+		margin-top:2em;
+		margin-left:37em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.alantxt {
+		font-size:2em;
+		margin-top:1em;
+		margin-left:1em;
+		width:33em;
+	}
+	#line {
+		margin-top:0em;
+		width:100%;
+		margin-left:0em;
+		color:white;
+	}
+	#accordians {
+		position:absolute;
+		margin-left:10em;
+		margin-top:-11.2em;
+		width:66.4em;
+	}
+	#gkb {
+		margin-left:-48em;
+		margin-right:-1.5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#pokedex {
+		margin-top:-10em;
+		margin-left:1.1em;
+		margin-right:-48em;
+		height:15em;
+		width:15em;
+	}
+	#swiftshift {
+		margin-top:-3em;
+		height:30em;
+		width:23em;
+		margin-left:-1em;
+		margin-right:3em;
+	}
+	#warrior {
+		margin-left:-5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#tech-skills-header {
+		color:#669999;
+		position:relative;
+		margin-top:8em;
+		margin-bottom:-3em;
+		margin-left:1em;
+	}
+	#tech-skills {
+		position:relative;
+		margin-top:7em;
+		margin-bottom:-5em;
+		width:80%;
+	}
+	#angular {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}	
+	#bootstrap {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#codeigniter {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#css {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#django {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#express {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#flask {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#github {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#html {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#jquery {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#js {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#mongodb {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#nodejs {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#php {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#python {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#mysql {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#apache {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#aws {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		width:139%;
+		padding-bottom:47em;
+	}
+}
+/*Nexus 6P*/
+@media all and (min-device-width: 420.1px) and (max-device-width: 679.9px) {
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
+	}
+	#reverse {
+		width:32em;
+		position: relative; 
+		margin-left:50em;
+		margin-top:10em;
+	}
+	.container {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-top:-25em;
+		margin-left:-36em;
+	}
+	.front .back {
+		width: 32em; 
+		height: 15em; 
+		/*-webkit-transform: rotateY(180deg);*/
+	}
+	.container {
+		width: 32em;
+		height:15em;
+		/*-webkit-perspective: 1000;*/
+	}
+	.card {
+		width: 32em; 
+		height: 15em;
+		/*-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;*/
+	}
+	.container:hover .card {
+		/*-webkit-transform: rotateY(180deg);			*/	
+	}
+	.face {
+		position: absolute;
+		/*-webkit-backface-visibility: hidden;*/
+	}
+	.front {
+		z-index: 10;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
+		width:32em;
+		height:15em;
+		display:none;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:15em;
+		width:15em;
+		margin-top:2em;
+		margin-left:42em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.alantxt {
+		font-size:2em;
+		margin-top:1em;
+		margin-left:2em;
+		width:33em;
+	}
+	#accordians {
+		position:absolute;
+		margin-left:11.1em;
+		margin-top:-11.2em;
+		width:66em;
+	}
+	#gkb {
+		margin-left:-46em;
+		margin-right:-1.5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#pokedex {
+		margin-top:-11em;
+		margin-left:1.1em;
+		margin-right:-48em;
+		height:15em;
+		width:15em;
+	}
+	#swiftshift {
+		margin-top:-3em;
+		height:30em;
+		width:23em;
+		margin-left:-1em;
+		margin-right:3em;
+	}
+	#warrior {
+		margin-left:-5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#tech-skills-header {
+		color:#669999;
+		position:relative;
+		margin-top:8em;
+		margin-bottom:-2em;
+		margin-left:2em;
+	}
+	#tech-skills {
+		position:relative;
+		margin-left:2em;
+		margin-right:-3em;
+		margin-top:6em;
+		margin-bottom:-5em;
+		width:80%;
+	}
+	#angular {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}	
+	#bootstrap {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#codeigniter {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#css {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#django {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#express {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#flask {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#github {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#html {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#jquery {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#js {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#mongodb {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#nodejs {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#php {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#python {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#mysql {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#apache {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#aws {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		width:139%;
+		padding-bottom:46em;
+	}
+}
+/*iPad*/
+@media all and (min-device-width: 680.1px) and (max-device-width: 1120px) {
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
+	}
+	#reverse {
+		width:32em;
+		position: relative; 
+		margin-left:50em;
+		margin-top:10em;
+	}
+	.container {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-top:-25em;
+		margin-left:-33em;
+	}
+	.front .back {
+		width: 32em; 
+		height: 15em; 
+		-webkit-transform: rotateY(180deg);
+	}
+	.container {
+		width: 32em;
+		height:15em;
+		-webkit-perspective: 1000;
+	}
+	.card {
+		width: 32em; 
+		height: 15em;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+	}
+	.container:hover .card {
+		-webkit-transform: rotateY(180deg);				
+	}
+	.face {
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+	}
+	.front {
+		z-index: 10;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
 		width:32em;
 		height:15em;
 	}
@@ -1250,1349 +1236,688 @@
 		margin-right:-20px;
 	}
 	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:3em;
+		height:15em;
+		width:15em;
+		margin-top:2em;
+		margin-left:38em;
 		padding:2px;
 		border:5px solid black;
 		border-radius:5px;
 	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
 	.alantxt {
-		font-size:0.7em;
-		margin-top:28em;
-		margin-left:-34em;
+		font-size:2em;
+		margin-top:1em;
+		margin-left:2em;
+		width:33em;
 	}
 	#line {
-		margin-top:-14em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
+		margin-top:0em;
+		width:100%;
+		margin-left:0em;
+		color:white;
 	}
 	#accordians {
-		margin-left:0em;
-		width:80.5em;
-		margin-top:-61em;
+		position:absolute;
+		margin-left:9.1em;
+		margin-top:-11.4em;
+		width:66em;
+	}
+	#gkb {
+		margin-left:-46em;
+		margin-right:-1.5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
 	}
 	#pokedex {
+		margin-top:-11em;
+		margin-left:1.1em;
+		margin-right:-48em;
+		height:15em;
+		width:15em;
+	}
+	#swiftshift {
+		margin-top:-3em;
+		height:30em;
+		width:23em;
+		margin-left:-1em;
+		margin-right:3em;
+	}
+	#warrior {
+		margin-left:-5em;
+		margin-top:-10.9em;
+		height:15em;
+		width:15em;
+	}
+	#tech-skills-header {
+		color:#669999;
 		position:relative;
-		z-index:10;
+		margin-top:8em;
+		margin-bottom:-5em;
 		margin-left:1em;
-		margin-top:37.5em;
-		height:22em;
-		width:30em;
+	}
+	#tech-skills {
+		position:relative;
+		margin-left:5em;
+		margin-right:3em;
+		margin-top:12em;
+		margin-bottom:-5em;
+		width:80%;
+	}
+	#angular {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}	
+	#bootstrap {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#codeigniter {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#css {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#django {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#express {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#flask {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#github {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#html {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#jquery {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#js {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#mongodb {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#nodejs {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#php {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#python {
+		margin-left:1em;
+		width:5em;
+		height:5em;
+	}
+	#mysql {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#apache {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#aws {
+		margin:1em;
+		width:5em;
+		height:5em;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		width:134%;
+		padding-bottom:28em;
+	}
+}
+/*Medium Screen Sizes*/
+@media all and (min-device-width: 1120.1px) and (max-device-width: 1439.9px){
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 150%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
+	}
+	#reverse {
+		width:32em;
+		position: relative; 
+		margin-left:43em;
+		margin-top:10em;
+	}
+	.container {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-top:-25em;
+		margin-left:-33em;
+	}
+	.front .back {
+		width: 32em; 
+		height: 15em; 
+		-webkit-transform: rotateY(180deg);
+	}
+	.container {
+		width: 32em;
+		height:15em;
+		-webkit-perspective: 1000;
+	}
+	.card {
+		width: 32em; 
+		height: 15em;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+	}
+	.container:hover .card {
+		-webkit-transform: rotateY(180deg);				
+	}
+	.face {
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+	}
+	.front {
+		z-index: 10;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
+		width:32em;
+		height:15em;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:15em;
+		width:15em;
+		margin-top:2em;
+		margin-left:33em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.alantxt {
+		font-size:0.9em;
+		margin-top:1em;
+		margin-left:-3em;
+		width:68em;
+	}
+	#line {
+		margin-top:0em;
+		width:100%;
+		margin-left:0em;
+		color:white;
+	}
+	#accordians {
+		position:absolute;
+		margin-left:8em;
+		margin-top:-9em;
+		width:62em;
+	}
+	#gkb {
+		margin-left:-1em;
+		margin-top:-7.5em;
+		height:12em;
+		width:12em;
+	}
+	#pokedex {
+		margin-top:-7.5em;
+		margin-left:4em;
+		height:12em;
+		width:12em;
+	}
+	#swiftshift {
+		margin-top:-1em;
+		height:23.8em;
+		width:19em;
+		margin-left:1em;
+	}
+	#warrior {
+		margin-left:1em;
+		margin-top:-7.5em;
+		height:12em;
+		width:12em;
+	}
+	#tech-skills-header {
+		color:#669999;
+		position:relative;
+		margin-top:10em;
+	}
+	#tech-skills {
+		position:relative;
+		margin-top:3em;
+	}
+	#angular {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}	
+	#bootstrap {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#codeigniter {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#css {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#django {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#express {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#flask {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#github {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#html {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#jquery {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#js {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#mongodb {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#nodejs {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#php {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#python {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#mysql {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#apache {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#aws {
+		margin:2em;
+		width:8em;
+		height:8em;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		padding-bottom:12em;
+	}
+}
+/*Large Screen Sizes*/
+@media all and (min-device-width: 1440px){
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+	html, body {
+	    width: 100%;
+	    height: 130%;
+	    margin: 0;
+	    padding: 0;
+	    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 1em; 
+	    background-color:#CCCCCC;
+	    z-index:-1;
+	    position:relative;
+	}
+	#reverse {
+		width:32em;
+		margin-left:43em;
+		margin-top:10em;
+		position: relative; 
+		z-index:1;
+	}
+	.container {
+		position: relative; 
+		z-index:1;
+		width:32em;
+		height:15em;
+		margin-top:-25em;
+		margin-left:-33em;
+	}
+	.front .back {
+		position: relative; 
+		z-index:1;
+		width: 32em; 
+		height: 15em; 
+		-webkit-transform: rotateY(180deg);
+	}
+	.container {
+		position: relative; 
+		z-index:1;
+		width: 32em;
+		height:15em;
+		-webkit-perspective: 1000;
+	}
+	.card {
+		position: relative; 
+		z-index:1;
+		width: 32em; 
+		height: 15em;
+		-webkit-transform-style: preserve-3d;
+		-webkit-transition: 0.5s;
+	}
+	.container:hover .card {
+		position: relative; 
+		z-index:1;
+		-webkit-transform: rotateY(180deg);				
+	}
+	.face {
+		z-index:1;
+		position: absolute;
+		-webkit-backface-visibility: hidden;
+	}
+	.front {
+		z-index: 1;
+	}
+	.container:hover .front {
+		z-index: 0;
+	}
+	#buscardfront {
+		position: relative; 
+		z-index:1;
+		width:32em;
+		height:15em;
+	}
+	#buscardback {
+		position:relative;
+		width:32em;
+		height:15em;
+		margin-right:-20px;
+	}
+	#alan {
+		height:15em;
+		width:15em;
+		position:relative;
+		z-index:1;
+		margin-top:2em;
+		margin-left:33em;
+		padding:2px;
+		border:5px solid black;
+		border-radius:5px;
+	}
+	.alantxt {
+		position:relative;
+		z-index:1;
+		font-size:0.9em;
+		margin-top:1em;
+		margin-left:-3em;
+		width:80em;
+		color:#181818;
+	}
+	#line {
+		margin-top:0em;
+		width:100%;
+		margin-left:0em;
+		color:white;
+	}
+	#accordians {
+		position:absolute;
+		margin-left:8.6em;
+		margin-top:-18.2em;
+		width:102em;
+		z-index:1;
 	}
 	#gkb {
 		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
+		z-index:1;
+		margin-top:-17.9em;
+		height:24em;
+		width:24em;
+	}
+	#pokedex {
+		position:relative;
+		z-index:1;
+		margin-top:-17.9em;
+		margin-left:1.1em;
+		height:24em;
+		width:24em;
 	}
 	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
+		position:relative;
+		z-index:1;
+		margin-top:-5em;
+		height:47.8em;
+		width:38em;
+		margin-left:-5em;
 	}
 	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
+		position:relative;
+		z-index:1;
+		margin-left:-5em;
+		margin-top:-17.9em;
+		height:24em;
+		width:24em;
 	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:19em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-21.5em;
+	#tech-skills-header {
+		font-size:3em;
+		position:relative;
+		margin-top:3em;
+		color:#669999;
 	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
+	#tech-skills {
+		position:relative;
 		margin-top:2em;
 	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-41.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-44em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-47.5em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:-32.5em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-35em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-39em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-41.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-62.5em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-47.5em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:42em;
-		margin-top:-51em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:35em;
-		margin-top:-38.3em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-40.5em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-44.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-47.5em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:50.1em;
-		margin-top:-50.5em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:21em;
-		width:15em;
-	}
-}
-/* iPad & other devices */
-@media all and (min-device-width: 481px) and (max-device-width:780px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-27.5em;
-		margin-left:-31.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		-webkit-transform: rotateY(180deg);
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		-webkit-perspective: 1000;
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
-	}
-	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
-	}
-	.face {
-		position: absolute;
-		-webkit-backface-visibility: hidden;
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		z-index: 0;
-	}
-	#buscardfront {
-		width:32em;
-		height:15em;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:3em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.9em;
-		margin-top:28em;
-		margin-left:-34em;
-	}
-	#line {
-		margin-top:-15em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:80.5em;
-		margin-top:-61em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
 	#angular {
-		width:6em;
-		height:6em;
-		margin-left:19em;
-		margin-top:-18.8em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}	
 	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-21.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:-1em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#css {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-35.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#django {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-38em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#express {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-41em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#flask {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:-29.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#github {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-32.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#html {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-35.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-39em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#js {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-55.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-44em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-47.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#php {
-		width:6em;
-		height:6em;
-		margin-left:35em;
-		margin-top:-36.3em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#python {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-39em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-41.5em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#apache {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-45em;
+		margin:2em;
+		width:8em;
+		height:8em;
+		position:relative;
+		z-index:1;
 	}
 	#aws {
-		width:6em;
-		height:6em;
-		margin-left:50.1em;
-		margin-top:-48em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:20em;
-		width:15em;
-	}
-	#pokedex {
+		margin:2em;
+		width:8em;
+		height:8em;
 		position:relative;
-		z-index:10;
-		margin-left:-0.3em;
-		margin-top:-23.7em;
-		height:22em;
-		width:34em;
-	}
-}
-/* Devices bigger than ipad */
-@media all and (min-device-width: 780px) and (max-device-width:960px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-26em;
-		margin-left:-31.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		-webkit-transform: rotateY(180deg);
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		-webkit-perspective: 1000;
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
-	}
-	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
-	}
-	.face {
-		position: absolute;
-		-webkit-backface-visibility: hidden;
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		z-index: 0;
-	}
-	#buscardfront {
-		width:32em;
-		height:15em;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:3em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.9em;
-		margin-top:28em;
-		margin-left:-34em;
-	}
-	#line {
-		margin-top:-15em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:80.5em;
-		margin-top:-61em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:19em;
-		margin-top:-18.8em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-21.5em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:-1em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-35.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-38em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-41em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:19.2em;
-		margin-top:-29.5em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-32.5em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:34.5em;
-		margin-top:-35.5em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:50em;
-		margin-top:-39em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-55.5em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-44em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-47.5em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:35em;
-		margin-top:-36.3em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:58em;
-		margin-top:-39em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:27em;
-		margin-top:-41.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:42.5em;
-		margin-top:-45em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:50.1em;
-		margin-top:-48em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:20em;
-		width:15em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:-0.3em;
-		margin-top:-23.7em;
-		height:22em;
-		width:34em;
-	}
-}
-/*13-inch macbook Pro*/
-@media all and (min-device-width: 961px) and (max-device-width: 1320px) {
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-24.5em;
-		margin-left:-39.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		-webkit-transform: rotateY(180deg);
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		-webkit-perspective: 1000;
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
-	}
-	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
-	}
-	.face {
-		position: absolute;
-		-webkit-backface-visibility: hidden;
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		z-index: 0;
-	}
-	#buscardfront {
-		width:32em;
-		height:15em;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:-5em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.9em;
-		margin-top:30em;
-		width:51em;
-		margin-left:-43em;
-	}
-	#line {
-		margin-top:-19em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:48.5em;
-		margin-top:-61em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:-0.3em;
-		margin-top:-23.7em;
-		height:22em;
-		width:34em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:10em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:17em;
-		margin-top:-21.5em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:10.2em;
-		margin-top:-0.5em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:23.5em;
-		margin-top:-35.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:30em;
-		margin-top:-38em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:37em;
-		margin-top:-41em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:10.1em;
-		margin-top:-29.7em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:17em;
-		margin-top:-32.5em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:23.5em;
-		margin-top:-36em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:44em;
-		margin-top:-38.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:44em;
-		margin-top:-55.5em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:37em;
-		margin-top:-44.2em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:30em;
-		margin-top:-47em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:44em;
-		margin-top:-36.3em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:37em;
-		margin-top:-38.5em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:17.1em;
-		margin-top:-41.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:23.5em;
-		margin-top:-44.5em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:30.1em;
-		margin-top:-47.5em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:14.5em;
-		width:15em;
-	}
-}
-/*15-inch hp laptop*/
-@media all and (min-device-width: 1320.1px) and (max-device-width: 1520px) {
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-25.5em;
-		margin-left:-39.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		-webkit-transform: rotateY(180deg);
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		-webkit-perspective: 1000;
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
-	}
-	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
-	}
-	.face {
-		position: absolute;
-		-webkit-backface-visibility: hidden;
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		z-index: 0;
-	}
-	#buscardfront {
-		width:32em;
-		height:15em;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:-5em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.9em;
-		margin-top:30em;
-		width:51em;
-		margin-left:-43em;
-	}
-	#line {
-		margin-top:-19em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:51.5em;
-		margin-top:-61em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:-0.3em;
-		margin-top:-23.7em;
-		height:22em;
-		width:34em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:10em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:17em;
-		margin-top:-21.5em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:10.2em;
-		margin-top:-0.5em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:23.5em;
-		margin-top:-35.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:30em;
-		margin-top:-38em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:37em;
-		margin-top:-41em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:10.1em;
-		margin-top:-29.7em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:17em;
-		margin-top:-32.5em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:23.5em;
-		margin-top:-36em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:44em;
-		margin-top:-38.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:44em;
-		margin-top:-55.5em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:37em;
-		margin-top:-44.2em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:30em;
-		margin-top:-47em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:44em;
-		margin-top:-36.3em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:37em;
-		margin-top:-38.5em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:17.1em;
-		margin-top:-41.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:23.5em;
-		margin-top:-44.5em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:30.1em;
-		margin-top:-47.5em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:14.5em;
-		width:15em;
-	}
-}
-/*24-inch desktop monitor*/
-@media all and (min-device-width: 1520.1px){
-	body {
-		font-family: Helvetica, Arial, Sans-Serif;
-		width:100%;
-		height:100em;
-		background-color:#C8C8C8;
-	}
-	#reverse {
-		width:32em;
-		position: relative; 
-		margin-left:40em;
-		margin-top:0em;
-	}
-	.container {
-		width:32em;
-		height:15em;
-		margin-top:-24.5em;
-		margin-left:-31.1em;
-	}
-	.front .back {
-		width: 32em; 
-		height: 15em; 
-		-webkit-transform: rotateY(180deg);
-	}
-	.container {
-		width: 32em;
-		height:15em;
-		-webkit-perspective: 1000;
-	}
-	.card {
-		width: 32em; 
-		height: 15em;
-		-webkit-transform-style: preserve-3d;
-		-webkit-transition: 0.5s;
-	}
-	.container:hover .card {
-		-webkit-transform: rotateY(180deg);				
-	}
-	.face {
-		position: absolute;
-		-webkit-backface-visibility: hidden;
-	}
-	.front {
-		z-index: 10;
-	}
-	.container:hover .front {
-		z-index: 0;
-	}
-	#buscardfront {
-		width:32em;
-		height:15em;
-	}
-	#buscardback {
-		position:relative;
-		width:32em;
-		height:15em;
-		margin-right:-20px;
-	}
-	#alan {
-		height:80%;
-		width:42%;
-		margin-top:5em;
-		margin-left:3em;
-		padding:2px;
-		border:5px solid black;
-		border-radius:5px;
-	}
-	.contme {
-		margin-left:1em;
-		margin-top:-12em;
-		width:16em;
-	}
-	.alantxt {
-		font-size:0.9em;
-		margin-top:30em;
-		margin-left:-34em;
-	}
-	#line {
-		margin-top:-19em;
-		width:132em;
-		margin-left:-37em;
-	}
-	.accordion-test {
- 		padding: 20px;
-  		width: 780px;
-	}
-	#accordians {
-		margin-left:0em;
-		width:95.5em;
-		margin-top:-62.5em;
-	}
-	#gkb {
-		position:relative;
-		z-index:10;
-		margin-left:-32em;
-		margin-top:-41.2em;
-		height:18em;
-		width:30em;
-	}
-	#pokedex {
-		position:relative;
-		z-index:10;
-		margin-left:-0.3em;
-		margin-top:-23.7em;
-		height:22em;
-		width:34em;
-	}
-	#swiftshift {
-		margin-top:5.7em;
-		margin-left:-38em;
-		height:35em;
-		width:45em;
-	}
-	#warrior {
-		margin-top:38em;
-		margin-left:-37.5em;
-		height:22em;
-		width:30em;
-	}
-	#angular {
-		width:6em;
-		height:6em;
-		margin-left:28em;
-		margin-top:-18.5em;
-	}	
-	#bootstrap {
-		width:6em;
-		height:6em;
-		margin-left:38em;
-		margin-top:-21.5em;
-	}
-	#codeigniter {
-		width:6em;
-		height:6em;
-		margin-left:28em;
-		margin-top:1.5em;
-	}
-	#css {
-		width:6em;
-		height:6em;
-		margin-left:47.5em;
-		margin-top:-39.5em;
-	}
-	#django {
-		width:6em;
-		height:6em;
-		margin-left:57em;
-		margin-top:-42em;
-	}
-	#express {
-		width:6em;
-		height:6em;
-		margin-left:66em;
-		margin-top:-44.8em;
-	}
-	#flask {
-		width:6em;
-		height:6em;
-		margin-left:28.1em;
-		margin-top:-31.7em;
-	}
-	#github {
-		width:6em;
-		height:6em;
-		margin-left:38em;
-		margin-top:-34.5em;
-	}
-	#html {
-		width:6em;
-		height:6em;
-		margin-left:47.5em;
-		margin-top:-37.5em;
-	}
-	#jquery {
-		width:6em;
-		height:6em;
-		margin-left:75em;
-		margin-top:-39.5em;
-	}
-	#js {
-		width:6em;
-		height:6em;
-		margin-left:75em;
-		margin-top:-59em;
-	}
-	#mongodb {
-		width:6em;
-		height:6em;
-		margin-left:66em;
-		margin-top:-45.2em;
-	}
-	#nodejs {
-		width:6em;
-		height:6em;
-		margin-left:57em;
-		margin-top:-48em;
-	}
-	#php {
-		width:6em;
-		height:6em;
-		margin-left:66.5em;
-		margin-top:-36.3em;
-	}
-	#python {
-		width:6em;
-		height:6em;
-		margin-left:75em;
-		margin-top:-38.5em;
-	}
-	#mysql {
-		width:6em;
-		height:6em;
-		margin-left:38em;
-		margin-top:-41.5em;
-	}
-	#apache {
-		width:6em;
-		height:6em;
-		margin-left:47.5em;
-		margin-top:-44.5em;
-	}
-	#aws {
-		width:6em;
-		height:6em;
-		margin-left:57.1em;
-		margin-top:-47.5em;
-	}
-	#tech {
-		margin-top:-9em;
-		margin-left:28.5em;
-		width:15em;
+		z-index:1;
+	}
+	#waterfall {
+		background-image: url("/img/waterfall.gif");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height:100%;	
+		padding-bottom:10em;
 	}
 }

@@ -1,13 +1,8 @@
-var express = require("express");
-var path = require("path");
-
+var express = require('express');
 var app = express();
 
-app.use(express.static(path.join(__dirname, "./static")));
-app.get('/', function(req, res) {
-  res.render("index");
-})
+app.use(express.static(__dirname + '/client'));
 
 app.listen(8000, function() {
-  console.log("listening on port 8000");
-})
+	console.log('Server is listening on port 8000');
+});

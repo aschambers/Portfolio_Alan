@@ -1,24 +1,77 @@
-<div id="reverse">
+<div id="waterfall">
+	<center>
+	<img id="alan" src="/img/me.jpg" alt="">
+	<div id="reverse">
+		<div class="container front">
+			<div class="card">
+				<div class="face front">
+					<img id="buscardfront" src="/img/buscardfront.png" alt="Business Card Front">
+				</div>
+				<div class="face back">
+					<img id="buscardback" src="/img/buscardback.png" alt="Business Card Back">
+				</div>
+		 	</div>
+		</div>
+	</div>
+	<p class="alantxt">Alan is a recent graduate of Coding Dojo who loves technology and learning more in the field of web development. He originally was a student at CSU Stanislaus earing a B.S. degree in Computer Information Systems. Before coming to Coding Dojo Alan was working at AT&T as a premises technician but ultimitely decided to pursue his passion for technology and take on a new challenge in becoming a full-stack web developer. Alan recently took part in a hackathon with fellow students of Coding Dojo taking 1st place in the Amazon Alexa skills challenge. He knows PHP, Python, and MEAN.
+	<span id="contactme">Want to contact me? Click or hover over my business card.</span></p>
 	<div>
-		<img id="alan" src="/img/me.jpg" alt="">
-		<h3 id="tech">Technical Skills</h3>
-		<div class="contme">
-			<p class="alantxt">Alan is a recent graduate of Coding Dojo who loves technology and learning more in the field of web development. He originally was a student at CSU Stanislaus earing a B.S. degree in Computer Information Systems. Before coming to Coding Dojo Alan was working at AT&T as a premises technician but ultimitely decided to pursue his passion for technology and take on a new challenge in becoming a full-stack web developer. Alan recently took part in a hackathon with fellow students of Coding Dojo taking 1st place in the Amazon Alexa skills challenge. He knows PHP, Python, and MEAN.
-			<span id="contactme">Want to contact me? Click or hover over my business card.</span></p>
+		<div>
+			<a href="https://github.com/amritakc/gkb_backend"><img id="gkb" src="/img/gkb.png" alt="gkb"></a>
+			<!-- <a href="https://github.com/aschambers/Swift-Shift"> --><img id="swiftshift" src="/img/swiftshift.gif" alt="swift shift"><!-- </a> -->
+			<a href="http://www.warriorprivatesecurity.com"><img id="warrior" src="/img/warrior2.jpg" alt="Warrior Security"></a>
+			<a href="http://www.meteorfalls.net"><img id="pokedex" src="/img/pokedex.jpg" alt="pokedex"></a>
 		</div>
-		<div id="page">
-			<div class="container front">
-				<div class="card">
-					<div class="face front">
-						<img id="buscardfront" src="/img/buscardfront.png" alt="Business Card Front">
-					</div>
-					<div class="face back">
-						<img id="buscardback" src="/img/buscardback.png" alt="Business Card Back">
-					</div>
-			 	</div>
-			</div>
+		<div id="accordians" class="accordion-test" ng-controller="mainController">
+		  	<accordion id="acc1" close-others="oneAtATime">
+		    	<accordion-group is-open="false">
+		        <accordion-heading>
+		            Good Karma Bikes <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+		        </accordion-heading>
+		        <h4>About Good Karma Bikes</h4>
+		        <p>
+		        Good Karma Bikes is a non-profit organization that assists very low income and homeless individuals with free quality bike repair at local shelters and parks from a mobile van. They have a new bike co-op, where you can rent low cost repair stations for DIY (do it yourself) reapirs and teach classes on how to reapir any type of bike. Their aim is to rehabilitate and refurbish bicicyles, get them out of the waste stream and on the streets. They have a 100% volunteer work force. 
+		        <p>
+		        <h4>Good Karma Bikes Project</h4>
+		        <p>Alan worked on a team to revamp their website as part of a Scrum Agile process with two week sprints delivering new features and working software at each sprint. Specifically, Alan was in a team of five who implemented the admin dashboard. This project utilized Javascript, Ruby, PostreSQL, Ruby on Rails, AngularJS and Boostrap. You can see this project at goodkarmabikes.org by June 1, 2016, or click on the image.
+		      	</p>
+		    	</accordion-group>
+		    </accordian>
+		    <accordion close-others="oneAtATime">
+		    	<accordion-group is-open="false">
+		        <accordion-heading>
+			        Swift Shift <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+			        </accordion-heading>
+			       	<p>
+			        This was a project Alan worked on during project week after learning Python for three weeks at Coding Dojo. The goal of this project was to provide a more efficient dispatch efficiency system. Alan used to work at AT&T and saw room for improvement with their current dispatch efficiency program and thought about the application of it when being applied to other businesses such as Comcast or Food Delivery. This project used a MVC framework called Pylot. The twilio API was also used in this project to demonstrate calling and texting. There are projects you would not be able to see without looking at the parts of the project such as the admin dashboard as Alan set this up so that only he would be able to add and delete employeees, or other functions associated with an admin account. You can look at this project by visiting https://github.com/aschambers/Swift-Shift.
+			      	</p>
+			    </accordion-group>
+			</accordian>
+		    <accordion close-others="oneAtATime">
+		    	<accordion-group is-open="false">
+		        <accordion-heading>
+			        Warrior Private Security <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+			        </accordion-heading>
+			       	<p>
+			        This was a project Alan did for his brother Ryan who is attempting to start a security guard business called Warrior Security. This project uses Facebook's API as well as Google Maps API. Angular was used in this project as well as media queries to get the page responsiveness down well on all devices. You can see this project live at (warriorprivatesecurity.com) or by clicking on the warrior security image.
+			      	</p>
+			    </accordion-group>
+			</accordian>
+		    <accordion close-others="oneAtATime">
+		    	<accordion-group is-open="false">
+		        <accordion-heading>
+			        Damage Calculator <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+			        </accordion-heading>
+			       	<p>
+			        This was a project to calculate the damage of various move in the game of Pokemon specifically Omega Ruby and Alpha Sapphire games. Alan sought to create a more efficient damage calculator that could be used to do these calculations quickly in efficiently with the latest games that are currently out. The calculations are all done in javascript. You can see this work at (meteorfalls.net).
+			      	</p>
+			    </accordion-group>
+			</accordian>
 		</div>
-		<div id="skills">
+		<h1 id="tech-skills-header">Technical Skills</h1>
+		</center>
+		<center>
+		<div id="tech-skills">
 			<img id="angular" src="/img/angular.svg" alt="">
 			<img id="bootstrap" src="/img/bootstrap.png" alt="">
 			<img id="codeigniter" src="/img/codeigniter.png" alt="">
@@ -38,53 +91,6 @@
 			<img id="apache" src="/img/apache.png" alt="">
 			<img id="aws" src="/img/aws.png" alt="">
 		</div>
-		<hr id="line">
 	</div>
-	<div>
-		<img id="gkb" src="/img/gkb.png" alt="gkb">
-		<img id="swiftshift" src="/img/swiftshift.gif" alt="swift shift">
-		<img id="warrior" src="/img/warrior2.jpg" alt="Warrior Security">
-		<img id="pokedex" src="/img/pokedex.jpg" alt="pokedex">
-	</div>
-	<div id="accordians" class="accordion-test" ng-controller="mainController">
-	  	<accordion close-others="oneAtATime">
-	    	<accordion-group is-open="false">
-	        <accordion-heading>
-	            Good Karma Bikes <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
-	        </accordion-heading>
-	        <h4>About Good Karma Bikes</h4>
-	        <p>
-	        Good Karma Bikes is a non-profit organization that assists very low income and homeless individuals with free quality bike repair at local shelters and parks from a mobile van. They have a new bike co-op, where you can rent low cost repair stations for DIY (do it yourself) reapirs and teach classes on how to reapir any type of bike. Their aim is to rehabilitate and refurbish bicicyles, get them out of the waste stream and on the streets. They have a 100% volunteer work force. 
-	        <p>
-	        <h4>Good Karma Bikes Project</h4>
-	        <p>Alan worked on a team to revamp their website as part of a Scrum Agile process with two week sprints delivering new features and working software at each sprint. Specifically, Alan was in a team of five who implemented the admin dashboard. This project utilized Javascript, Ruby, PostreSQL, Ruby on Rails, AngularJS and Boostrap. You can see this project at goodkarmabikes.org by June 1, 2016.
-	      	</p>
-	    </accordion-group>
-	    <accordion-group>
-	      	<accordion-heading>
-	            Swift Shift <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
-	        </accordion-heading>
-	       	<p>
-	        This was a project Alan worked on during project week after learning Python for three weeks at Coding Dojo. The goal of this project was to provide a more efficient dispatch efficiency system. Alan used to work at AT&T and saw room for improvement with their current dispatch efficiency program and thought about the application of it when being applied to other businesses such as Comcast or Food Delivery. This project used a MVC framework called Pylot. The twilio API was also used in this project to demonstrate calling and texting. You can look at this project by visiting https://github.com/aschambers/Swift-Shift. There are project you would not be able to see without looking at the project such as the admin dashboard as Alan set this up so that only he would be able to add and delete employeees, or other functions associated with an admin account. 
-	      	</p>
-	    </accordion-group>
-	    <accordion-group>
-	      	<accordion-heading>
-	            Warrior Private Security <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
-	        </accordion-heading>
-	       	<p>
-	        This was a project Alan did for his brother Ryan who is attempting to start a security guard business called Warrior Security. This project uses Facebook's API as well as Google Maps API. Angular was used in this project as well as media queries to get the page responsiveness down well on all devices.
-	        You can see this project live at (warriorprivatesecurity.com).
-	      	</p>
-	    </accordion-group>
-	    <accordion-group>
-	      	<accordion-heading>
-	            Damage Calculator<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
-	        </accordion-heading>
-	       	<p>
-	        This was a project to calculate the damage of various move in the game of Pokemon specifically Omega Ruby and Alpha Sapphire games. Alan sought to create a more efficient damage calculator that could be used to do these calculations quickly in efficiently with the latest games that are currently out. The calculations are all done in javascript. You can see this work at (meteorfalls.net).
-	      	</p>
-	    </accordion-group>
-	  	</accordion>
-	</div>
+	</center>
 </div>

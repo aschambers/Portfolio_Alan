@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alan Schambers</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css">
+	<link rel="stylesheet" href="/content/css/styles.css">
+</head>
+<body>
+	<div class="fixed-content-wrapper">
+		<section id="header-container" ng-controller="navCtrl as vm">
+			<nav role="navigation">
+				<ul id="navbar-brand">
+					<li>
+						<a ui-sref="home">Alan Schambers</a>
+					</li>
+				</ul>
+				<ul>
+					<li title="Navigation Menu" role="mobile-navigation" class="mobile-navigation-btn" ng-class="{ 'open-menu' : vm.openMenu }">
+						<a href="javascript:void(0)" ng-click="vm.showLinks()" ng-if="vm.openMenu == false"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+						<a href="javascript:void(0)" ng-click="vm.showLinks()" ng-if="vm.openMenu"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+					</li>
+					<li ui-sref-active="active" class="mobile-only" ng-class="{ 'inactive' : vm.currentUrl('/') === false, 'mobile-display' : vm.mobileScreen == true }"><a ui-sref="home">Home</a></li>
+					<li ui-sref-active="active" ng-class="{ 'inactive' : vm.currentUrl('/portfolio') === false, 'mobile-display' : vm.mobileScreen == true }"><a ui-sref="portfolio">Projects</a></li>
+					<li ui-sref-active="active" ng-class="{ 'inactive' : vm.currentUrl('/tech') === false, 'mobile-display' : vm.mobileScreen == true }"><a ui-sref="tech">Technology</a></li>
+				</ul>
+			</nav>
+			<header ng-class="{ 'home-header' : vm.currentUrl('/'), 'portfolio-header' : vm.currentUrl('/portfolio'), 'tech-header' : vm.currentUrl('/tech') }">
+				<div class="header-content" ng-if="vm.currentUrl('/')">
+					<h1 class="title-heading">Full Stack Web Developer</h1>
+					<p class="intro-heading">Passionate about technology and strive to improve my knowledge and expertise daily.</p>
+				</div>
+				<div class="header-content" ng-if="vm.currentUrl('/portfolio')">
+					<h1 class="title-heading">Projects</h1>
+					<p class="intro-heading">A collection of some of my past work.</p>
+				</div>
+				<div class="header-content" ng-if="vm.currentUrl('/tech')">
+					<h1 class="title-heading">Technology</h1>
+					<p class="intro-heading">Web Development languages and technologies.</p>
+				</div>
+			</header>
+		</section>
+		<main ui-view role="main">
+		</main>
+		<footer ng-controller="footerCtrl as vm" id="footer" class="container-fluid" role="footer">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 id="footer-heading">Contact</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p><a href="mailto:aschambers4291@gmail.com" class="btn btn-default btn-lg contact-btn">Email</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p><a href="/content/resume/alan_schambers_resume.pdf" class="btn btn-default btn-lg contact-btn" target="_blank">Resume</a></p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-animate.min.js"></script>
+	<script src="/public/all.js"></script>
+</body>
+</html>

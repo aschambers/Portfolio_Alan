@@ -1,0 +1,718 @@
+@import "bourbon";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+// Mixins
+@mixin transitions($time, $type) {
+	-webkit-transition: all $time $type;
+	-moz-transition: all $time $type;
+	-ms-transition:all $time $type;
+	-o-transition:all $time $type;
+	transition: all $time $type;
+}
+
+// Global Stylings
+
+// Stylings for html, body
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+body {
+	background: black;
+	overflow: auto;
+}
+
+// Header container
+#header-container {
+	width: 100%;
+	height: 100%;
+}
+
+// Navigation menu stylings
+nav {
+	width: 100%;
+	height: 50px;
+	background: #333;
+	box-shadow: 3px 2px 4px -2px black;
+	border-bottom: 1px solid black;
+	position: fixed;
+	padding: 0 em(25);
+	z-index: 9999;
+	text-transform: uppercase;
+
+	> ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float: right;
+
+		.active {
+			background: darken(#333, 15%);
+			border-bottom: 3px solid #9358fe;
+		}
+
+		.inactive {
+			&:hover {
+				background: lighten(black, 15%);
+			}
+		}
+
+		> li {
+			display: inline-block;
+			padding: 0 10px;
+			float: left;
+
+			> a {
+				display: block;
+				line-height: 50px;
+				min-width: em(100);
+				height: 50px;
+				text-align: center;
+				text-decoration: none;
+				color: white;
+				
+
+				&:visited, &:hover, &:link, &:active {
+					text-decoration: none;
+					color: white;
+				}
+
+				> span {
+					display: block !important;
+					height: 50px;
+					line-height: 50px !important;
+				}
+			}
+		}
+	}
+
+	#navbar-brand {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float: left;
+
+		li {
+			display: inline-block;
+			
+			a {
+				display: block;
+				line-height: 50px;
+				height: 50px;
+				min-width: em(100);
+				text-align: center;
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+}
+
+// Main content stylings
+main {
+	display: block;
+	min-height: 100vh;
+	width: 100%;
+	background: #333;
+}
+
+// Class stylings
+
+.mobile-only {
+	display: none;
+}
+
+.mobile-navigation-btn {
+	display: none;
+}
+
+.fixed-content-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	width: 100%;
+}
+
+// When the screen is not in mobile view, header is not limited.
+header {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	text-align: center;
+
+	.header-content {
+		margin: 0 auto;
+		padding: 10% 0;
+		width: 100%;
+		color: #fff;
+
+		.title-heading {
+			font-size: em(100);
+			text-transform: uppercase;
+			width: 80%;
+			margin: 0 auto;
+			margin-bottom: em(10);
+			font-weight: 700;
+			opacity: 0.8;
+		}
+
+		.intro-heading {
+			font-size: em(30);
+			width: 70%;
+			margin: 0 auto;
+			opacity: 0.8;
+		}
+	}
+}
+
+// Home page header
+header.home-header {
+	background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ),
+		url('/content/img/alan_robotics.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+// Portfolio header
+header.portfolio-header {
+	background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ),
+		url('/content/img/landscape.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+// tech page header
+header.tech-header {
+	background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.65), 
+	      rgba(0, 0, 0, 0.65)
+	    ),
+		url('/content/img/cityscape.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+
+// Main content for home page
+.main-content {
+	width: 100%;
+	padding-top: em(90);
+	padding-bottom: em(90);
+	background: #333;
+	color: white;
+
+	.social-icons-wrapper {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: em(40);
+		
+		.social-links {
+			margin-right: em(10);
+		}
+
+	}
+
+	p {
+		width: 70%;
+		margin: em(10) auto;
+		color: #FC407B;
+		text-align: justify;
+
+	}
+
+	ul {
+		width: 70%;
+		padding-left: 18%;
+		color: #FCF1CC;
+	}
+
+	h2 {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: em(20);
+	}
+}
+
+
+
+// Portfolio page stylings
+.container-fluid.portfolio {
+	color: #FC407B;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
+
+	.portfolio-heading {
+		font-weight: 700;
+		font-size: em(50);
+		text-transform: uppercase;
+		width: 80%;
+		text-align: center;
+		margin: 0 auto em(20) auto;
+		color: #fff;
+	}
+
+	// Auto height accounts for the sub-header
+	.row .col-md-6 .picture-box {
+		width: 95%;
+		height: auto;
+		position: relative;
+		margin: 0 auto;
+		padding-bottom: em(20);
+
+		img {
+			width: 100%;
+			height: em(300);
+			display: block;
+		}
+
+		// title of the project
+		.pic-sub-header {
+			height: 50px;
+			background: #fff;
+			text-align: center;
+			margin: 0;
+			line-height: 50px;
+		}
+
+		// overlay stylings
+		.pic-overlay {
+			display: block;
+			position: absolute;
+			z-index: 20;
+			background: rgba(0, 0, 0, 0.8);
+			overflow: hidden;
+			transition: all 0.5s;
+
+			a.close-overlay {
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: 100;
+				width: 45px;
+				height: 45px;
+				font-size: 20px;
+				font-weight: 700;
+				color: #fff;
+				line-height: 45px;
+				text-align: center;
+				background-color: #000;
+				cursor: pointer;
+			}
+
+			a.close-overlay.hidden {
+				display: none;
+			}
+
+			a.expand {
+				display: block;
+				position: absolute;
+				z-index: 100;
+				width: 60px;
+				height: 60px;
+				border: solid 5px #fff;
+				text-align: center;
+				color: #fff;
+				line-height: 50px;
+				font-weight: 700;
+				font-size: 30px;
+				border-radius: 30px;
+			}
+		}
+
+	}
+
+}
+
+// Stylings to get the pic overlay working
+.effect .pic-overlay {
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 0;
+}
+
+.effect .pic-overlay a.expand {
+	left: 0;
+	right: 0;
+	top: 50%;
+	margin: 0 auto 0 auto;
+}
+
+.effect .picture-box:hover .pic-overlay {
+	height: calc(100% - 70px);
+}
+
+// Technology section stylings
+.container-fluid.technology {
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+	.col-xs-12 h1 {
+		color: white;
+		text-align: center;
+		margin: em(10) auto;
+	}
+
+	.tech-box {
+		border: 2px solid #FE9720;
+		background-color: #48483E;
+		margin-bottom: em(20);
+		height: auto;
+
+		.tech-icon {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: em(5) 0;
+			min-height: 130px;
+			position: relative;
+
+			.tech-pic {
+				position: absolute;
+				top: 20%;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+				max-height: 80px;
+				background-color: #48483E;
+			}
+		}
+
+		.tech-icon:hover {
+			cursor: pointer;
+		}
+
+		.tech-icon.no-repo:hover {
+			cursor: initial;
+		}
+
+		.tech-title {
+			background-color: white;
+			color: #48483E;
+			text-align: center;
+
+			h3 {
+				height: 45px;
+				line-height: 45px;
+				margin: 0;
+				text-transform: uppercase;
+			}
+		}
+
+		.repo-links {
+			background-color: darken(#48483E, 25%) !important;
+			text-align: center;
+			min-height: em(50);
+			line-height: 50px;
+
+			> a {
+				display: block;
+				color: #FE9720;
+				text-transform: uppercase;
+
+				&:visited, &:hover, &:link, &:active {
+					text-decoration: none;
+				}
+
+				&:hover {
+					color: darken(#fe9720, 10%);
+				}
+			}
+		}	
+	}
+}
+
+
+
+// footer stylings
+#footer {
+	background: black;
+	color: white;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 20%;
+	min-height: 100vh;
+
+
+	#footer-heading {
+		text-transform: uppercase;
+		font-weight: 700;
+		width: 70%;
+		margin: 0 auto em(10) auto;
+		font-size: em(45);
+	}
+
+	p {
+		@extend #footer-heading;
+		margin: em(10) auto em(10) auto;
+		text-transform: none;
+		font-size: em(25);
+
+		a {
+			color: #FC407B;
+			text-decoration: none;
+
+			&:visited, &:hover, &:link, &:active {
+				text-decoration: none;
+			}
+
+			&:hover {
+				color: darken(#fc407b, 10%);
+			}
+		}
+	}
+
+	.copyright-text {
+		margin: 3% auto 0 auto;
+	}
+
+	.contact-btn {
+		border-radius: 0;
+		font-size: em(15) !important;
+		background-color: transparent;
+		color: #FC407B;
+		@include transitions(0.5s, ease-in-out);
+	}
+
+	.contact-btn:hover {
+		background-color: darken(#FC407B, 15%);
+		color: white;
+	}
+}
+
+// Media Queries
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	// Put background on body to account for varying heights of
+	// mobile devices breaking the styling.
+	body {
+		font-size: em(15);
+		background: #333;
+	}
+
+	// Header container's height is set to auto so it doesn't push the about me section down
+	#header-container {
+		height: auto;
+	}
+
+	// Remove the padding on the navigation bar
+	nav {
+		padding: 0;
+
+		#navbar-brand {
+			display: none;
+		}
+	}
+	// Stylings for the ul and everything inside of it
+	nav > ul {
+		width: 100%;
+		float: none;
+		background: rgba(0, 0, 0, 0.7);
+
+		.active {
+			background: rgba(87, 96, 55, 0.9);
+			border: 0;
+		}
+
+		.inactive {
+			&:hover {
+				background: rgba(0, 0, 0, 0.5);
+			}
+		}
+
+		> li {
+			display: none;
+		}
+
+		li.mobile-navigation-btn {
+			display: block;
+			width: 100%;
+			float: none;
+
+			> a {
+				display: block;
+				width: 100%;
+
+				> i {
+					display: inline;
+					vertical-align: middle;
+				}
+			}
+		}
+
+		li.open-menu {
+			background: darken(#333, 35%);
+		}
+
+		li.mobile-display {
+			width: 100%;
+			display: block;
+			float: none;
+			height: auto;
+			
+
+			> a {
+				display: block;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	
+	// Main content for home page
+	.main-content {
+		height: 100%;
+		font-size: em(13);
+		padding-top: em(40);
+		padding-bottom: em(40);
+
+		.social-icons-wrapper {
+			width: 80%;
+			
+			.social-links {
+				margin-right: em(10);
+			}
+
+		}
+
+		p {
+			width: 80%;
+			color: #FC407B;
+		}
+
+		ul {
+			width: 80%;
+			padding-left: 15%;
+			margin: em(10) 0;
+			color: #FCF1CC;
+		}
+
+		h2 {
+			width: 80%;
+		}
+
+	}
+
+	header {
+		min-height: 1px;
+		height: 300px;
+		position: relative;
+
+		.header-content {
+			padding-top: 5%;
+			padding-bottom: 0;
+			position: absolute;
+			top: 20%;
+
+			.title-heading {
+				font-size: em(30);
+				text-transform: uppercase;
+				width: 80%;
+				margin: 0 auto;
+				margin-bottom: em(5);
+				font-weight: 700;
+				opacity: 0.8;
+			}
+
+			.intro-heading {
+				font-size: em(15);
+				width: 70%;
+				margin: 0 auto;
+				opacity: 0.8;
+			}
+		}
+	}
+
+
+	// footer stylings
+	#footer {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		min-height: 1px;
+
+		#footer-heading {
+			font-size: em(25);
+			margin-top: em(10);
+		}
+
+
+
+		p {
+			font-size: em(15);
+
+			a {
+				color: #FC407B;;
+				text-decoration: none;
+
+				&:visited, &:hover, &:link, &:active {
+					text-decoration: none;
+				}
+
+				&:hover {
+					color: darken(#fc407b, 10%);
+				}
+			}
+		}
+
+		.copyright-text {
+			font-size: em(15);
+		}
+
+	}
+
+	// Everything in the portfolio section gets a lot smaller in mobile
+	.container-fluid.portfolio {
+		color: #FC407B;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		background: #333;
+
+		.portfolio-heading {
+			font-weight: 700;
+			font-size: em(30);
+			text-transform: uppercase;
+			width: 80%;
+			text-align: center;
+			margin: 0 auto em(10) auto;
+			color: #fff;
+		}
+
+		// Auto height accounts for the sub-header
+		.row .col-md-6 .picture-box {
+			width: 80%;
+			height: auto;
+			position: relative;
+			padding-bottom: em(40);
+			margin: 0 auto;
+
+			img {
+				height: em(180);
+			}
+
+			// title of the project
+			.pic-sub-header {
+				font-size: em(15);
+			}
+
+			
+		}
+	}
+
+	.effect .picture-box:hover .pic-overlay {
+		height: calc(100% - 87px);
+	}
+}
